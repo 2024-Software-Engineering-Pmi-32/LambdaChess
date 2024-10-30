@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="LambdaChess/App.axaml" value="LambdaChess/LambdaChess.csproj" />
+        <entry key="LambdaChess/LoginWindow.axaml" value="LambdaChess/LambdaChess.csproj" />
+        <entry key="LambdaChess/MainWindow.axaml" value="LambdaChess/LambdaChess.csproj" />
+      </map>
+    </option>
+  </component>
+</project>
