@@ -15,7 +15,8 @@
           "Avalonia.Themes.Fluent": "11.1.0",
           "BCrypt": "1.0.0",
           "BCrypt.Net": "0.1.0",
-          "MessageBox.Avalonia-mainthread": "2.0.1",
+          "DnsClient": "1.8.0",
+          "MessageBox.Avalonia": "3.1.6",
           "Microsoft.EntityFrameworkCore": "8.0.0",
           "Microsoft.EntityFrameworkCore.Design": "8.0.0",
           "Newtonsoft.Json": "13.0.3",
@@ -94,17 +95,6 @@
             "rid": "win-x86",
             "assetType": "native",
             "fileVersion": "2.1.22045.0"
-          }
-        }
-      },
-      "Avalonia.AvaloniaEdit/0.10.0": {
-        "dependencies": {
-          "Avalonia": "11.1.0"
-        },
-        "runtime": {
-          "lib/netstandard2.0/AvaloniaEdit.dll": {
-            "assemblyVersion": "0.10.0.0",
-            "fileVersion": "0.10.0.0"
           }
         }
       },
@@ -292,6 +282,37 @@
           }
         }
       },
+      "ColorTextBlock.Avalonia/11.0.2": {
+        "dependencies": {
+          "Avalonia": "11.1.0"
+        },
+        "runtime": {
+          "lib/net6.0/ColorTextBlock.Avalonia.dll": {
+            "assemblyVersion": "11.0.2.0",
+            "fileVersion": "11.0.2.0"
+          }
+        }
+      },
+      "DialogHost.Avalonia/0.7.7": {
+        "dependencies": {
+          "Avalonia": "11.1.0",
+          "System.Reactive": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/DialogHost.Avalonia.dll": {
+            "assemblyVersion": "0.7.7.0",
+            "fileVersion": "0.7.7.0"
+          }
+        }
+      },
+      "DnsClient/1.8.0": {
+        "runtime": {
+          "lib/net8.0/DnsClient.dll": {
+            "assemblyVersion": "1.8.0.0",
+            "fileVersion": "1.8.0.0"
+          }
+        }
+      },
       "HarfBuzzSharp/7.3.0.2": {
         "dependencies": {
           "HarfBuzzSharp.NativeAssets.Win32": "7.3.0.2",
@@ -368,47 +389,26 @@
           }
         }
       },
-      "Markdown.Avalonia/0.10.10": {
-        "dependencies": {
-          "Markdown.Avalonia.SyntaxHigh": "0.10.10",
-          "Markdown.Avalonia.Tight": "0.10.10"
-        }
-      },
-      "Markdown.Avalonia.SyntaxHigh/0.10.10": {
+      "Markdown.Avalonia.Tight/11.0.2": {
         "dependencies": {
           "Avalonia": "11.1.0",
-          "Avalonia.AvaloniaEdit": "0.10.0",
-          "System.Collections.Immutable": "6.0.0"
+          "ColorTextBlock.Avalonia": "11.0.2"
         },
         "runtime": {
-          "lib/netcoreapp2.0/Markdown.Avalonia.SyntaxHigh.dll": {
-            "assemblyVersion": "0.10.10.0",
-            "fileVersion": "0.10.10.0"
+          "lib/net6.0/Markdown.Avalonia.dll": {
+            "assemblyVersion": "11.0.2.0",
+            "fileVersion": "11.0.2.0"
           }
         }
       },
-      "Markdown.Avalonia.Tight/0.10.10": {
-        "dependencies": {
-          "Avalonia": "11.1.0"
-        },
-        "runtime": {
-          "lib/netcoreapp2.0/ColorTextBlock.Avalonia.dll": {
-            "assemblyVersion": "0.10.10.0",
-            "fileVersion": "0.10.10.0"
-          },
-          "lib/netcoreapp2.0/Markdown.Avalonia.dll": {
-            "assemblyVersion": "0.10.10.0",
-            "fileVersion": "0.10.10.0"
-          }
-        }
-      },
-      "MessageBox.Avalonia-mainthread/2.0.1": {
+      "MessageBox.Avalonia/3.1.6": {
         "dependencies": {
           "Avalonia": "11.1.0",
-          "Markdown.Avalonia": "0.10.10"
+          "DialogHost.Avalonia": "0.7.7",
+          "Markdown.Avalonia.Tight": "11.0.2"
         },
         "runtime": {
-          "lib/netstandard2.0/MessageBox.Avalonia.dll": {
+          "lib/netstandard2.0/MsBox.Avalonia.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1007,6 +1007,14 @@
         }
       },
       "System.Numerics.Vectors/4.5.0": {},
+      "System.Reactive/6.0.0": {
+        "runtime": {
+          "lib/net6.0/System.Reactive.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.1"
+          }
+        }
+      },
       "System.Reflection.Metadata/6.0.1": {
         "dependencies": {
           "System.Collections.Immutable": "6.0.0"
@@ -1057,13 +1065,6 @@
       "sha512": "sha512-Bo3qOhKC1b84BIhiogndMdAzB3UrrESKK7hS769f5HWeoMw/pcd42US5KFYW2JJ4ZSTrXnP8mXwLTMzh+S+9Lg==",
       "path": "avalonia.angle.windows.natives/2.1.22045.20230930",
       "hashPath": "avalonia.angle.windows.natives.2.1.22045.20230930.nupkg.sha512"
-    },
-    "Avalonia.AvaloniaEdit/0.10.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-ugsyCTgf+3kgKXPwnc61xy8xzTlX8zW0nTU0qXdBd5oTBJAy+QATwzcJmpLI4MROwxojWTBeBTDd78rUl6M6Hw==",
-      "path": "avalonia.avaloniaedit/0.10.0",
-      "hashPath": "avalonia.avaloniaedit.0.10.0.nupkg.sha512"
     },
     "Avalonia.BuildServices/0.0.29": {
       "type": "package",
@@ -1177,6 +1178,27 @@
       "path": "bcrypt.net/0.1.0",
       "hashPath": "bcrypt.net.0.1.0.nupkg.sha512"
     },
+    "ColorTextBlock.Avalonia/11.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MsWu5aAbDpstAmJ+TTSgC6Q7YdjKB7Na912GMr3oWl9ag8TH2HNpglzgo+kIAuB4C4wswKfrzhso4UcpvgMuHg==",
+      "path": "colortextblock.avalonia/11.0.2",
+      "hashPath": "colortextblock.avalonia.11.0.2.nupkg.sha512"
+    },
+    "DialogHost.Avalonia/0.7.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-V5zq0e6dBeK1A8xDsyNouzfSx3d+aOhxPgjguaFyaDexgDF8WiSQDsawkv0fRGKbDnaPIqMk9m7P/2G5c7HPzw==",
+      "path": "dialoghost.avalonia/0.7.7",
+      "hashPath": "dialoghost.avalonia.0.7.7.nupkg.sha512"
+    },
+    "DnsClient/1.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RRwtaCXkXWsx0mmsReGDqCbRLtItfUbkRJlet1FpdciVhyMGKcPd57T1+8Jki9ojHlq9fntVhXQroOOgRak8DQ==",
+      "path": "dnsclient/1.8.0",
+      "hashPath": "dnsclient.1.8.0.nupkg.sha512"
+    },
     "HarfBuzzSharp/7.3.0.2": {
       "type": "package",
       "serviceable": true,
@@ -1219,33 +1241,19 @@
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
     },
-    "Markdown.Avalonia/0.10.10": {
+    "Markdown.Avalonia.Tight/11.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ve6GRx3fLDlCKfS+KS/SFMeht1LP5HASiOAOx7QpJKvQeif9TWkZBwUnbVnCTUJ5c2JdocDEbBPV6j4oW0szjw==",
-      "path": "markdown.avalonia/0.10.10",
-      "hashPath": "markdown.avalonia.0.10.10.nupkg.sha512"
+      "sha512": "sha512-Ylg0EkSUId42dVUFQvU7UJGWcKiJ+g7TesRe/KCzUYzlypWf1lTiVveT2j60QSldCtuAw3o/aEOEjIahMdRGig==",
+      "path": "markdown.avalonia.tight/11.0.2",
+      "hashPath": "markdown.avalonia.tight.11.0.2.nupkg.sha512"
     },
-    "Markdown.Avalonia.SyntaxHigh/0.10.10": {
+    "MessageBox.Avalonia/3.1.6": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-rVDxLHTzhwX3UwRnuiK2soitsHL+/XFLO98fiPBLDRUPEHGl99xo9A2JB8xwy/EfIrmWffMbW6K6pb9DIlmSjg==",
-      "path": "markdown.avalonia.syntaxhigh/0.10.10",
-      "hashPath": "markdown.avalonia.syntaxhigh.0.10.10.nupkg.sha512"
-    },
-    "Markdown.Avalonia.Tight/0.10.10": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-BOm4vJBoon38H/yo7ufN3ruYwMlGD5mzQvht9J2TYf+ck9Skcy495ZTXvxox+b9jhd6B7o96Hk51vm5QEYu/ug==",
-      "path": "markdown.avalonia.tight/0.10.10",
-      "hashPath": "markdown.avalonia.tight.0.10.10.nupkg.sha512"
-    },
-    "MessageBox.Avalonia-mainthread/2.0.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-ahmQPZ77zShEYWTtd2ndUA6UGNGAhJ5YdGS4LqMgK4sdXIAVY0QCQR+VFYIpoNsSLjMNsQbdK06EfxQJY0UxSg==",
-      "path": "messagebox.avalonia-mainthread/2.0.1",
-      "hashPath": "messagebox.avalonia-mainthread.2.0.1.nupkg.sha512"
+      "sha512": "sha512-0nkXkFoh2d95HnC+/oeC8wcOMti4z+jmRMjYRw+ulrnFlhGzLURthII6VdZOHpG3m0kP7UWn1lkiDaYvft8TJg==",
+      "path": "messagebox.avalonia/3.1.6",
+      "hashPath": "messagebox.avalonia.3.1.6.nupkg.sha512"
     },
     "MicroCom.Runtime/0.11.0": {
       "type": "package",
@@ -1533,6 +1541,13 @@
       "sha512": "sha512-QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
       "path": "system.numerics.vectors/4.5.0",
       "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
+    },
+    "System.Reactive/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-31kfaW4ZupZzPsI5PVe77VhnvFF55qgma7KZr/E0iFTs6fmdhhG8j0mgEx620iLTey1EynOkEfnyTjtNEpJzGw==",
+      "path": "system.reactive/6.0.0",
+      "hashPath": "system.reactive.6.0.0.nupkg.sha512"
     },
     "System.Reflection.Metadata/6.0.1": {
       "type": "package",
