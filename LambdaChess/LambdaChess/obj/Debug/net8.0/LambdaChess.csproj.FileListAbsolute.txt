@@ -80,11 +80,8 @@ D:\Programs\JetBrains Rider 2023.3.2\Projects\LamdaChess\LambdaChess\LambdaChess
 D:\Programs\JetBrains Rider 2023.3.2\Projects\LamdaChess\LambdaChess\LambdaChess\LambdaChess\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
 D:\Programs\JetBrains Rider 2023.3.2\Projects\LamdaChess\LambdaChess\LambdaChess\LambdaChess\bin\Debug\net8.0\Npgsql.dll
 D:\Programs\JetBrains Rider 2023.3.2\Projects\LamdaChess\LambdaChess\LambdaChess\LambdaChess\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
-D:\Programs\JetBrains Rider 2023.3.2\Projects\LamdaChess\LambdaChess\LambdaChess\LambdaChess\bin\Debug\net8.0\AvaloniaEdit.dll
-D:\Programs\JetBrains Rider 2023.3.2\Projects\LamdaChess\LambdaChess\LambdaChess\LambdaChess\bin\Debug\net8.0\Markdown.Avalonia.SyntaxHigh.dll
 D:\Programs\JetBrains Rider 2023.3.2\Projects\LamdaChess\LambdaChess\LambdaChess\LambdaChess\bin\Debug\net8.0\ColorTextBlock.Avalonia.dll
 D:\Programs\JetBrains Rider 2023.3.2\Projects\LamdaChess\LambdaChess\LambdaChess\LambdaChess\bin\Debug\net8.0\Markdown.Avalonia.dll
-D:\Programs\JetBrains Rider 2023.3.2\Projects\LamdaChess\LambdaChess\LambdaChess\LambdaChess\bin\Debug\net8.0\MessageBox.Avalonia.dll
 D:\Programs\JetBrains Rider 2023.3.2\Projects\LamdaChess\LambdaChess\LambdaChess\LambdaChess\bin\Debug\net8.0\DevOne.Security.Cryptography.BCrypt.dll
 D:\Programs\JetBrains Rider 2023.3.2\Projects\LamdaChess\LambdaChess\LambdaChess\LambdaChess\bin\Debug\net8.0\BCrypt.Net.dll
 D:\Programs\JetBrains Rider 2023.3.2\Projects\LamdaChess\LambdaChess\LambdaChess\LambdaChess\bin\Debug\net8.0\Newtonsoft.Json.dll
@@ -155,3 +152,7 @@ D:\Programs\JetBrains Rider 2023.3.2\Projects\LamdaChess\LambdaChess\LambdaChess
 D:\Programs\JetBrains Rider 2023.3.2\Projects\LamdaChess\LambdaChess\LambdaChess\LambdaChess\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Programs\JetBrains Rider 2023.3.2\Projects\LamdaChess\LambdaChess\LambdaChess\LambdaChess\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Programs\JetBrains Rider 2023.3.2\Projects\LamdaChess\LambdaChess\LambdaChess\LambdaChess\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Programs\JetBrains Rider 2023.3.2\Projects\LamdaChess\LambdaChess\LambdaChess\LambdaChess\bin\Debug\net8.0\DnsClient.dll
+D:\Programs\JetBrains Rider 2023.3.2\Projects\LamdaChess\LambdaChess\LambdaChess\LambdaChess\bin\Debug\net8.0\DialogHost.Avalonia.dll
+D:\Programs\JetBrains Rider 2023.3.2\Projects\LamdaChess\LambdaChess\LambdaChess\LambdaChess\bin\Debug\net8.0\MsBox.Avalonia.dll
+D:\Programs\JetBrains Rider 2023.3.2\Projects\LamdaChess\LambdaChess\LambdaChess\LambdaChess\bin\Debug\net8.0\System.Reactive.dll

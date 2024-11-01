@@ -14,14 +14,12 @@
         "outputPath": "D:\\Programs\\JetBrains Rider 2023.3.2\\Projects\\LamdaChess\\LambdaChess\\LambdaChess\\LambdaChess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -68,9 +66,13 @@
               "target": "Package",
               "version": "[0.1.0, )"
             },
-            "MessageBox.Avalonia-mainthread": {
+            "DnsClient": {
               "target": "Package",
-              "version": "[2.0.1, )"
+              "version": "[1.8.0, )"
+            },
+            "MessageBox.Avalonia": {
+              "target": "Package",
+              "version": "[3.1.6, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -107,7 +109,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
