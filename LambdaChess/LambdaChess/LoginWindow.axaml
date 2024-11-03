@@ -37,14 +37,14 @@
         <!-- User Agreement and Privacy Policy Checkboxes -->
         <WrapPanel VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0, 10, 0, 0">
             <CheckBox Name="UserAgreementCheckBox" FontSize="11"
-                      Checked="OnAgreementChecked" Unchecked="OnAgreementChecked">
+                      IsCheckedChanged="OnAgreementChecked">
                 <StackPanel Orientation="Horizontal">
                     <TextBlock Text="I agree to the " />
                     <TextBlock Text="User Agreement" Cursor="Hand" FontWeight="Bold" Tapped="OnUserAgreementLinkClick" />
                 </StackPanel>
             </CheckBox>
             <CheckBox Name="PrivacyPolicyCheckBox" FontSize="11"
-                      Margin="20,0,0,0" Checked="OnAgreementChecked" Unchecked="OnAgreementChecked">
+                      Margin="20,0,0,0" IsCheckedChanged="OnAgreementChecked">
                 <StackPanel Orientation="Horizontal">
                     <TextBlock Text="I agree to the " />
                     <TextBlock Text="Privacy Policy" Cursor="Hand" FontWeight="Bold" Tapped="OnPrivacyPolicyLinkClick" />

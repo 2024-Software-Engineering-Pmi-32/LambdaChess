@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LambdaChess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+34bcd9a8f1a7f57878924510ad0b5c3ac136bc90")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+863991ac4af09fa8688cef24142a4c5c9bdd5a00")]
 [assembly: System.Reflection.AssemblyProductAttribute("LambdaChess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LambdaChess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

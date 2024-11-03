@@ -1,17 +1,17 @@
+namespace LambdaChess.Helpers;
+
 using System;
 using System.IO;
 using System.Security.Cryptography;
-using System.Text;
 using Newtonsoft.Json;
-
-namespace LambdaChess.Helpers;
 
 public static class EncryptionHelper {
     private static readonly byte[]
         Key = Convert.FromBase64String("mAR6UAbkDI/IwA90mrcx44z+PtNqDTjvWQqJqLhdpfQ=");
-    private static readonly byte[] IV = Convert.FromBase64String("vBzzUwsVBKZYXtdYJAffZg==");
+    private static readonly byte[] Iv = Convert.FromBase64String("vBzzUwsVBKZYXtdYJAffZg==");
 
-    public static void SaveUserData<TDataType>(TDataType data, string filePath) where TDataType : class {
+    public static void SaveUserData<TDataType>(TDataType data, string filePath)
+        where TDataType : class {
         var jsonData = JsonConvert.SerializeObject(data);
         var encryptedData = Encrypt(jsonData);
 
@@ -19,8 +19,9 @@ public static class EncryptionHelper {
     }
 
     public static object? LoadUserData<TDataType>(string filePath) {
-        if (!File.Exists(filePath))
+        if (!File.Exists(filePath)) {
             return null;
+        }
 
         var encryptedData = File.ReadAllBytes(filePath);
         var jsonData = Decrypt(encryptedData);
@@ -31,7 +32,7 @@ public static class EncryptionHelper {
     private static byte[] Encrypt(string plainText) {
         using var aes = Aes.Create();
         aes.Key = Key;
-        aes.IV = IV;
+        aes.IV = Iv;
 
         using var encryptor = aes.CreateEncryptor(aes.Key, aes.IV);
         using var ms = new MemoryStream();
@@ -46,7 +47,7 @@ public static class EncryptionHelper {
     private static string Decrypt(byte[] cipherText) {
         using var aes = Aes.Create();
         aes.Key = Key;
-        aes.IV = IV;
+        aes.IV = Iv;
 
         using var decryptor = aes.CreateDecryptor(aes.Key, aes.IV);
         using var ms = new MemoryStream(cipherText);
